@@ -53,7 +53,7 @@ class CreatePostFragment : Fragment() {
         image_for_collection.clipToOutline = true
 
         title_for_collection.text = pref.getString("title", "Добряши помогают котикам")
-        subtitle_for_collection.text = pref.getString("author", "Иван Иванов")
+        subtitle_for_collection.text = pref.getString("author", "Иван Иванов") + " · Закончится через 5 дней"
 
     }
 }

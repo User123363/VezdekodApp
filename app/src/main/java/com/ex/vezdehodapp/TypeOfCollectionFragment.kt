@@ -42,5 +42,9 @@ class TypeOfCollectionFragment : Fragment() {
         constraint_for_target_collection.setOnClickListener {
             showFragment(TargetCollectionFragment(), requireFragmentManager())
         }
+
+        constraint_for_regular_collection.setOnClickListener {
+            showFragment(TargetCollectionFragment(), requireFragmentManager())
+        }
     }
 }

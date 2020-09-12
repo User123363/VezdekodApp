@@ -66,7 +66,7 @@ class FeedFragment : Fragment() {
         viewCollection.image_for_collection.clipToOutline = true
 
         viewCollection.title_for_collection.text = pref.getString("title", "Добряши помогают котикам")
-        viewCollection.subtitle_for_collection.text = pref.getString("author", "Иван Иванов")
+        viewCollection.subtitle_for_collection.text = pref.getString("author", "Иван Иванов") + " · Закончится через 5 дней"
         viewCollection.author_name.text = pref.getString("author", "Иван Иванов")
         viewCollection.edit_text_for_description_for_post.text = pref.getString("comment_user", "Help pls")
 
